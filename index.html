@@ -3,33 +3,34 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Build Supplemental Income in the AI Boom | SMB Solutions</title>
-<meta name="description" content="Free live opportunity session. Learn how to position yourself for supplemental income in the AI economy with CPD-accredited certification and a proven system from SMB Solutions, a division of Tsalach Inc." />
-<meta property="og:title" content="Build Supplemental Income in the AI Boom" />
-<meta property="og:description" content="A free live opportunity session for anyone ready to generate supplemental income in the AI economy. Real strategy. Real systems. No fluff." />
+<title>The AI Certification Program | Take Control of Your Future</title>
+<meta name="description" content="A free live session for anyone ready to take control of their future in the AI era. CPD-accredited AI Certification trusted in 195 countries. Learn AI from the ground up and protect your income before the next wave of layoffs." />
+<meta property="og:title" content="The AI Certification Program" />
+<meta property="og:description" content="Free live session. Learn how to use AI to protect your income, multiply your value, and control your destiny in an economy reshaped by automation." />
 <meta property="og:type" content="website" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet" />
 <style>
   :root {
-    --ink: #1a2347;          /* deep navy text */
-    --ink-soft: #4b5479;
-    --ink-muted: #7a83a3;
-    --cream: #fbf7ee;        /* warm cream surface */
+    --ink: #0f1530;
+    --ink-soft: #3a4263;
+    --ink-muted: #6b7393;
+    --cream: #fbf7ee;
     --cream-deep: #f3ecd8;
-    --sky: #e7f0fb;          /* soft sky tint */
-    --sky-deep: #c9deef;
-    --gold: #e0a500;
-    --gold-soft: #f5c558;
+    --warm: #f7efe1;
+    --paper: #ffffff;
+    --gold: #c89a3a;
+    --gold-soft: #e7c47a;
     --gold-bg: #fff4d3;
-    --green: #1f9d52;
-    --green-soft: #d4f0de;
-    --white: #ffffff;
-    --line: rgba(26,35,71,0.10);
-    --shadow-sm: 0 2px 8px rgba(26,35,71,0.06);
-    --shadow-md: 0 12px 28px rgba(26,35,71,0.10);
-    --shadow-lg: 0 24px 60px rgba(26,35,71,0.14);
+    --alert: #b8331f;
+    --alert-bg: #fbe9e3;
+    --green: #1f7a4a;
+    --green-soft: #d6ecdd;
+    --line: rgba(15,21,48,0.10);
+    --shadow-sm: 0 2px 8px rgba(15,21,48,0.06);
+    --shadow-md: 0 14px 32px rgba(15,21,48,0.12);
+    --shadow-lg: 0 28px 70px rgba(15,21,48,0.18);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
@@ -44,560 +45,633 @@
   img { max-width: 100%; display: block; }
   a { color: inherit; text-decoration: none; }
 
-  /* ===== TOP BANNER ===== */
-  .top-banner {
-    background: linear-gradient(90deg, var(--gold) 0%, var(--gold-soft) 100%);
-    color: #3a2a00;
-    text-align: center;
-    padding: 11px 20px;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 0.2px;
-  }
-
-  /* ===== NAV ===== */
-  nav {
-    background: var(--white);
+  /* ===== HEADER ===== */
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(251, 247, 238, 0.92);
+    backdrop-filter: saturate(140%) blur(10px);
     border-bottom: 1px solid var(--line);
   }
-  .nav-inner {
-    padding: 18px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1280px;
+  .header-inner {
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
   }
-  .logo { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 18px; color: var(--ink); }
-  .logo-mark {
-    width: 40px; height: 40px; border-radius: 9px;
-    background: linear-gradient(135deg, var(--gold) 0%, #c08400 100%);
-    display: flex; align-items: center; justify-content: center;
-    color: #fff; font-weight: 800; font-size: 20px;
-    box-shadow: 0 4px 10px rgba(224,165,0,0.30);
-  }
-  .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
-  .logo-sub { font-size: 11px; color: var(--ink-muted); font-weight: 500; margin-top: 2px; }
-  .nav-cta {
-    background: var(--gold);
-    color: #3a2a00;
-    padding: 10px 20px;
-    border-radius: 999px;
+  .brand {
+    font-family: 'Playfair Display', Georgia, serif;
     font-weight: 700;
-    font-size: 14px;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 4px 12px rgba(224,165,0,0.30);
+    font-size: 20px;
+    color: var(--ink);
+    letter-spacing: 0.2px;
   }
-  .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(224,165,0,0.40); }
+  .brand span { color: var(--gold); }
+  .nav-cta {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: transform .2s ease, background .2s ease;
+  }
+  .nav-cta:hover { background: #000; transform: translateY(-1px); }
 
   /* ===== HERO ===== */
   .hero {
-    background:
-      radial-gradient(circle at 80% 10%, rgba(255,244,211,0.55) 0%, transparent 55%),
-      linear-gradient(180deg, var(--sky) 0%, var(--cream) 100%);
-    padding: 60px 32px 80px;
     position: relative;
+    color: var(--paper);
     overflow: hidden;
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url('images/v2/hero-urgent.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+  .hero-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(8,12,28,0.55) 0%, rgba(8,12,28,0.75) 60%, rgba(8,12,28,0.92) 100%);
   }
   .hero-inner {
-    max-width: 1280px;
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 96px 24px 88px;
+    width: 100%;
+  }
+  .eyebrow {
+    display: inline-block;
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.30);
+    color: #ffe7b3;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(38px, 6vw, 68px);
+    line-height: 1.06;
+    letter-spacing: -0.5px;
+    max-width: 900px;
+    margin-bottom: 22px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--gold-soft);
+  }
+  .hero p.lead {
+    font-size: clamp(17px, 1.6vw, 21px);
+    color: rgba(255,255,255,0.88);
+    max-width: 720px;
+    margin-bottom: 36px;
+    font-weight: 400;
+  }
+  .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--gold);
+    color: #1a1100;
+    padding: 18px 34px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 17px;
+    box-shadow: var(--shadow-md);
+    transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+  }
+  .hero-cta:hover { background: #d8a843; transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+  .hero-cta::after { content: "→"; font-size: 20px; }
+  .hero-meta {
+    margin-top: 18px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.72);
+  }
+
+  /* ===== SECTION BASE ===== */
+  section.block {
+    padding: 110px 24px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-eyebrow {
+    display: inline-block;
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  h2.section-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(30px, 4.2vw, 52px);
+    line-height: 1.12;
+    letter-spacing: -0.4px;
+    margin-bottom: 22px;
+    color: var(--ink);
+    max-width: 880px;
+  }
+  p.section-lead {
+    font-size: clamp(17px, 1.4vw, 19px);
+    color: var(--ink-soft);
+    max-width: 720px;
+    margin-bottom: 48px;
+  }
+
+  /* ===== NUMBERS / DISPLACEMENT ===== */
+  .numbers-block { background: #0f1530; color: var(--paper); }
+  .numbers-block .section-title { color: var(--paper); }
+  .numbers-block p.section-lead { color: rgba(255,255,255,0.78); }
+  .numbers-block .section-eyebrow { color: var(--gold-soft); }
+  .numbers-grid {
     display: grid;
     grid-template-columns: 1.1fr 1fr;
     gap: 56px;
     align-items: center;
   }
-  .hero-left { position: relative; z-index: 2; }
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--green-soft);
-    color: #135f31;
-    padding: 7px 16px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 24px;
-  }
-  .badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 1.8s ease-in-out infinite; }
-  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
-
-  h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: clamp(38px, 5vw, 60px);
-    line-height: 1.08;
-    margin-bottom: 22px;
-    color: var(--ink);
-    letter-spacing: -0.5px;
-  }
-  h1 .accent { color: var(--gold); font-style: italic; }
-  h1 .accent-green { color: var(--green); }
-
-  .hero-sub {
-    font-size: 18px;
-    line-height: 1.6;
-    color: var(--ink-soft);
-    margin-bottom: 28px;
-    max-width: 540px;
-  }
-  .hero-bullets { list-style: none; margin-bottom: 32px; }
-  .hero-bullets li {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 12px;
-    font-size: 15.5px;
-    color: var(--ink);
-  }
-  .check {
-    flex-shrink: 0;
-    width: 24px; height: 24px;
-    border-radius: 50%;
-    background: var(--green);
-    color: #fff;
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 800;
-    font-size: 14px;
-    margin-top: 2px;
-  }
-  .hero-cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
-  .btn-primary {
-    display: inline-flex; align-items: center; gap: 10px;
-    background: var(--gold);
-    color: #3a2a00;
-    padding: 16px 32px;
-    border-radius: 999px;
-    font-weight: 700;
-    font-size: 15.5px;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 8px 20px rgba(224,165,0,0.32);
-  }
-  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(224,165,0,0.42); }
-  .btn-secondary {
-    display: inline-flex; align-items: center; gap: 10px;
-    background: var(--white);
-    color: var(--ink);
-    padding: 16px 28px;
-    border-radius: 999px;
-    font-weight: 700;
-    font-size: 15.5px;
-    border: 1.5px solid var(--line);
-    transition: border-color 0.2s, transform 0.2s;
-  }
-  .btn-secondary:hover { border-color: var(--gold); transform: translateY(-2px); }
-
-  .hero-right { position: relative; z-index: 2; }
-  .hero-image {
-    border-radius: 22px;
-    box-shadow: var(--shadow-lg);
+  .numbers-grid .img-wrap {
+    border-radius: 18px;
     overflow: hidden;
-    aspect-ratio: 4/3;
-    background: var(--white);
+    box-shadow: var(--shadow-lg);
   }
-  .hero-image img { width: 100%; height: 100%; object-fit: cover; }
-
-  .hero-meta {
-    margin-top: 26px;
-    background: var(--white);
-    border-radius: 16px;
-    padding: 18px 22px;
-    box-shadow: var(--shadow-md);
-    display: flex;
-    gap: 18px;
-    align-items: center;
-  }
-  .hero-meta-icon {
-    width: 46px; height: 46px;
-    border-radius: 12px;
-    background: var(--gold-bg);
-    color: var(--gold);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 22px;
-    flex-shrink: 0;
-  }
-  .hero-meta-text { font-size: 13px; }
-  .hero-meta-date { font-weight: 700; color: var(--ink); font-size: 15px; line-height: 1.2; }
-  .hero-meta-detail { color: var(--ink-soft); margin-top: 3px; }
-
-  /* ===== FORM SECTION ===== */
-  .form-section {
-    background: var(--white);
-    padding: 80px 32px;
-    position: relative;
-  }
-  .form-section::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, var(--gold) 0%, var(--green) 50%, var(--gold) 100%);
-  }
-  .form-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .section-eyebrow {
-    color: var(--gold);
-    font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+  .stat-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 14px;
+    padding: 22px 24px;
     margin-bottom: 14px;
   }
-  h2 {
-    font-family: 'Playfair Display', serif;
+  .stat-card .big {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(32px, 4vw, 44px);
     font-weight: 700;
-    font-size: clamp(30px, 4vw, 44px);
-    line-height: 1.15;
-    color: var(--ink);
-    margin-bottom: 16px;
-    letter-spacing: -0.3px;
+    color: var(--gold-soft);
+    line-height: 1;
+    margin-bottom: 6px;
   }
-  .section-lede {
-    font-size: 17px;
-    color: var(--ink-soft);
-    max-width: 580px;
-    margin: 0 auto 36px;
+  .stat-card .lbl {
+    font-size: 15px;
+    color: rgba(255,255,255,0.82);
   }
-  .form-card {
-    background: var(--white);
-    border: 1px solid var(--line);
-    border-radius: 22px;
-    padding: 6px;
-    box-shadow: var(--shadow-lg);
-    overflow: hidden;
-    position: relative;
-  }
-  .form-card iframe {
-    display: block;
-    width: 100%;
-    border: 0;
-    border-radius: 16px;
-    min-height: 620px;
-  }
-  .form-trust {
-    margin-top: 26px;
+  .stat-source {
     font-size: 13px;
-    color: var(--ink-muted);
+    color: rgba(255,255,255,0.55);
+    margin-top: 22px;
+  }
+  .companies-strip {
+    margin-top: 18px;
     display: flex;
-    gap: 28px;
-    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
   }
-  .form-trust span { display: inline-flex; align-items: center; gap: 6px; }
+  .chip {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.88);
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+  }
 
-  /* ===== FEATURE STRIP (3-up images) ===== */
-  .feature-strip {
-    padding: 90px 32px;
-    background: linear-gradient(180deg, var(--cream) 0%, #f8f1e1 100%);
-  }
-  .feature-strip-inner { max-width: 1200px; margin: 0 auto; }
-  .strip-header { text-align: center; margin-bottom: 56px; }
-  .strip-grid {
+  /* ===== ON THE LIST (jobs) ===== */
+  .list-block { background: var(--warm); }
+  .jobs-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px 22px;
+    max-width: 880px;
   }
-  .strip-card {
-    background: var(--white);
+  .job-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-weight: 500;
+    color: var(--ink);
+    font-size: 15.5px;
+  }
+  .job-row .num {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--alert);
+    font-weight: 700;
+    font-size: 18px;
+    min-width: 24px;
+  }
+
+  /* ===== ESCAPE ROUTE ===== */
+  .escape-block { background: var(--cream); }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+  .two-col .img-wrap {
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: var(--shadow-md);
-    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: var(--shadow-lg);
+  }
+  .benefits-list {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    gap: 18px;
   }
-  .strip-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
-  .strip-img { aspect-ratio: 4/3; overflow: hidden; background: var(--sky); }
-  .strip-img img { width: 100%; height: 100%; object-fit: cover; }
-  .strip-body { padding: 24px 24px 28px; }
-  .strip-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--ink); margin-bottom: 10px; line-height: 1.25; }
-  .strip-copy { font-size: 14.5px; color: var(--ink-soft); line-height: 1.55; }
-
-  /* ===== TRUTH / WHO IS IT FOR ===== */
-  .truth {
-    padding: 90px 32px;
-    background: var(--white);
+  .benefit {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
   }
-  .truth-inner { max-width: 1080px; margin: 0 auto; }
-  .truth-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-top: 48px;
-  }
-  .truth-card {
-    background: var(--cream);
-    border-radius: 18px;
-    padding: 32px 28px;
-    border: 1px solid var(--line);
-  }
-  .truth-icon {
-    width: 52px; height: 52px;
-    border-radius: 14px;
+  .benefit .icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     background: var(--gold-bg);
     color: var(--gold);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 700;
-    margin-bottom: 18px;
+    font-size: 18px;
+    font-family: 'Playfair Display', Georgia, serif;
   }
-  .truth-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 21px; color: var(--ink); margin-bottom: 10px; }
-  .truth-copy { font-size: 14.5px; color: var(--ink-soft); }
+  .benefit h4 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: var(--ink);
+  }
+  .benefit p {
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+  }
 
-  /* ===== PILLARS ===== */
-  .pillars {
-    padding: 90px 32px;
-    background: linear-gradient(180deg, var(--sky) 0%, #f3f8fd 100%);
-  }
-  .pillars-inner { max-width: 1080px; margin: 0 auto; }
-  .pillars-grid {
+  /* ===== LEARN ===== */
+  .learn-block { background: var(--paper); }
+  .learn-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 22px;
-    margin-top: 48px;
+    margin-top: 8px;
   }
-  .pillar-card {
-    background: var(--white);
-    border-radius: 18px;
-    padding: 30px 28px;
-    box-shadow: var(--shadow-sm);
+  .learn-card {
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px 28px 26px;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .learn-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+  .learn-card .step {
+    display: inline-block;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .learn-card h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: var(--ink);
+  }
+  .learn-card p {
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+
+  /* ===== DESTINY ===== */
+  .destiny-block { background: var(--warm); }
+  .destiny-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: 64px;
+    align-items: center;
+  }
+  .destiny-grid .img-wrap {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+  }
+  .destiny-points {
+    margin-top: 26px;
     display: flex;
-    gap: 18px;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .destiny-point {
+    display: flex;
     align-items: flex-start;
-  }
-  .pillar-num {
-    width: 44px; height: 44px;
-    border-radius: 50%;
-    background: var(--gold);
-    color: #fff;
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 800;
+    gap: 12px;
     font-size: 16px;
-    flex-shrink: 0;
-    box-shadow: 0 4px 10px rgba(224,165,0,0.30);
+    color: var(--ink);
   }
-  .pillar-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 19px; color: var(--ink); margin-bottom: 6px; }
-  .pillar-copy { font-size: 14.5px; color: var(--ink-soft); line-height: 1.55; }
+  .destiny-point .dot {
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--green);
+    margin-top: 9px;
+  }
 
   /* ===== FINAL CTA ===== */
   .final-cta {
-    padding: 80px 32px;
-    background: linear-gradient(135deg, #1a2347 0%, #2d3e7c 100%);
+    background: linear-gradient(160deg, #0f1530 0%, #1c2454 100%);
+    color: var(--paper);
     text-align: center;
-    color: #fff;
+    padding: 120px 24px;
   }
-  .final-cta-inner { max-width: 720px; margin: 0 auto; }
-  .final-cta h2 { color: #fff; }
-  .final-cta .section-lede { color: rgba(255,255,255,0.85); }
-  .final-cta .btn-primary { margin-top: 8px; }
+  .final-cta h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(34px, 5vw, 56px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -0.3px;
+  }
+  .final-cta h2 em { color: var(--gold-soft); font-style: italic; }
+  .final-cta p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.84);
+    max-width: 660px;
+    margin: 0 auto 40px;
+  }
+  .final-cta .hero-cta { background: var(--gold); color: #1a1100; }
+  .final-cta .hero-cta:hover { background: #d8a843; }
+  .final-cta .meta {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.62);
+  }
 
   /* ===== FOOTER ===== */
   footer {
-    padding: 36px 32px;
-    background: var(--white);
-    border-top: 1px solid var(--line);
+    background: #0a0e22;
+    color: rgba(255,255,255,0.6);
     text-align: center;
-    color: var(--ink-muted);
-    font-size: 13px;
+    padding: 36px 24px;
+    font-size: 14px;
   }
-  footer a { color: var(--ink); font-weight: 600; }
-  footer a:hover { color: var(--gold); }
+  footer .brand-foot {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--paper);
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  footer .brand-foot span { color: var(--gold); }
 
   /* ===== RESPONSIVE ===== */
-  @media (max-width: 900px) {
-    .hero-inner { grid-template-columns: 1fr; gap: 40px; }
-    .hero-right { order: -1; }
-    .strip-grid { grid-template-columns: 1fr; }
-    .truth-grid { grid-template-columns: 1fr; }
-    .pillars-grid { grid-template-columns: 1fr; }
-    .form-card iframe { min-height: 700px; }
-    section, .hero, .form-section, .feature-strip, .truth, .pillars, .final-cta { padding-left: 22px; padding-right: 22px; }
-    .nav-inner { padding: 16px 22px; }
-    .form-trust { gap: 14px; font-size: 12px; }
+  @media (max-width: 880px) {
+    .numbers-grid,
+    .two-col,
+    .destiny-grid,
+    .learn-grid,
+    .jobs-grid {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+    section.block { padding: 80px 22px; }
+    .hero-inner { padding: 80px 22px 70px; }
+    .hero { min-height: 86vh; }
+    .header-inner { padding: 14px 18px; }
+    .brand { font-size: 17px; }
+    .nav-cta { padding: 9px 14px; font-size: 13px; }
   }
 </style>
 </head>
 <body>
 
-<div class="top-banner">
-  Free Live Opportunity Session &nbsp;&middot;&nbsp; Replay sent to every registrant &nbsp;&middot;&nbsp; No pitch
-</div>
-
-<nav>
-  <div class="nav-inner">
-    <a href="#top" class="logo">
-      <span class="logo-mark">S</span>
-      <span class="logo-text">SMB Solutions<span class="logo-sub">A Division of Tsalach Inc</span></span>
-    </a>
-    <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="nav-cta">Save My Seat</a>
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">The AI Certification <span>Program</span></div>
+    <a class="nav-cta" href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener">Reserve Your Seat</a>
   </div>
-</nav>
+</header>
 
-<section class="hero" id="top">
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
   <div class="hero-inner">
-    <div class="hero-left">
-      <div class="badge"><span class="badge-dot"></span>Live Opportunity Meeting</div>
-      <h1>Build <span class="accent">Supplemental Income</span> in the <span class="accent-green">AI Boom</span>.</h1>
-      <p class="hero-sub">A free live session for stay-at-home parents, professionals, and side-hustlers ready to position themselves in the fastest-growing economy of our lifetime. Learn the system. Get the certification. Start earning.</p>
-      <ul class="hero-bullets">
-        <li><span class="check">&#10003;</span>The exact AI skills companies will pay for in 2026</li>
-        <li><span class="check">&#10003;</span>A CPD-accredited path that opens corporate and consulting doors</li>
-        <li><span class="check">&#10003;</span>How everyday people are replacing or supplementing full-time income</li>
-        <li><span class="check">&#10003;</span>No tech background required. We start from the ground up.</li>
-      </ul>
-      <div class="hero-cta-row">
-        <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="btn-primary">Save My Seat &rarr;</a>
-        <a href="#what-youll-learn" class="btn-secondary">See what we cover</a>
+    <span class="eyebrow">Free Live Session</span>
+    <h1>The economy is changing fast. <em>Get ahead of it</em> before it gets ahead of you.</h1>
+    <p class="lead">A live, no-fluff session for anyone who refuses to be replaced. Learn how to use AI to protect your income, multiply your value, and take control of your future in an economy that is being rewritten in real time.</p>
+    <a class="hero-cta" href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener">Register for the Free Session</a>
+    <div class="hero-meta">Live on Zoom. Bring questions. Leave with a plan.</div>
+  </div>
+</section>
+
+<!-- ===== NUMBERS ===== -->
+<section class="block numbers-block">
+  <div class="container">
+    <span class="section-eyebrow">The Reality</span>
+    <h2 class="section-title">The numbers are staggering. And they are accelerating.</h2>
+    <p class="section-lead">This is not a slowdown. This is a structural shift in how work gets done, who gets paid, and which skills carry value into the next decade.</p>
+    <div class="numbers-grid">
+      <div>
+        <div class="stat-card">
+          <div class="big">1.17 Million</div>
+          <div class="lbl">US job cuts announced in 2025, the highest in over two decades outside of a recession.</div>
+        </div>
+        <div class="stat-card">
+          <div class="big">108,435</div>
+          <div class="lbl">Layoffs announced in January 2026 alone, a 28% jump from December.</div>
+        </div>
+        <div class="stat-card">
+          <div class="big">87,714</div>
+          <div class="lbl">Job cuts in 2026 directly linked to AI and automation.</div>
+        </div>
+        <div class="companies-strip">
+          <span class="chip">UPS · 12,000</span>
+          <span class="chip">FedEx · 12,000+</span>
+          <span class="chip">Meta · 8,000</span>
+          <span class="chip">Oracle · thousands</span>
+          <span class="chip">Intuit · 3,000</span>
+        </div>
+        <div class="stat-source">Source: Challenger, Gray &amp; Christmas job cut reports and public company filings.</div>
+      </div>
+      <div class="img-wrap">
+        <img src="images/v2/displacement.png" alt="An empty office floor representing layoffs and workforce displacement" loading="lazy" />
       </div>
     </div>
-    <div class="hero-right">
-      <div class="hero-image">
-        <img src="images/hero-bright.png" alt="A confident professional working from a bright, sunny home office with AI tools" />
+  </div>
+</section>
+
+<!-- ===== ON THE LIST ===== -->
+<section class="block list-block">
+  <div class="container">
+    <span class="section-eyebrow">Be Honest With Yourself</span>
+    <h2 class="section-title">Your career may already be on the list.</h2>
+    <p class="section-lead">These are the ten white-collar roles AI is replacing or compressing the fastest. If you are in one of them, the question is no longer if you adapt. It is how soon.</p>
+    <div class="jobs-grid">
+      <div class="job-row"><span class="num">01</span> Customer service representatives</div>
+      <div class="job-row"><span class="num">02</span> Copywriters and content writers</div>
+      <div class="job-row"><span class="num">03</span> Entry-level software developers</div>
+      <div class="job-row"><span class="num">04</span> Graphic designers</div>
+      <div class="job-row"><span class="num">05</span> HR professionals</div>
+      <div class="job-row"><span class="num">06</span> Financial analysts</div>
+      <div class="job-row"><span class="num">07</span> Translators</div>
+      <div class="job-row"><span class="num">08</span> Paralegals</div>
+      <div class="job-row"><span class="num">09</span> Market research and data entry</div>
+      <div class="job-row"><span class="num">10</span> Radiologists and image-reading specialists</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ESCAPE ROUTE ===== -->
+<section class="block escape-block">
+  <div class="container">
+    <div class="two-col">
+      <div class="img-wrap">
+        <img src="images/v2/earned-credential.png" alt="A confident professional holding her CPD-accredited AI certification at her home office" loading="lazy" />
       </div>
-      <div class="hero-meta">
-        <div class="hero-meta-icon">&#9200;</div>
-        <div class="hero-meta-text">
-          <div class="hero-meta-date">Thursday, June 11 &middot; 7:00 PM CT</div>
-          <div class="hero-meta-detail">Live on Zoom &middot; 60 minutes &middot; Replay sent after</div>
+      <div>
+        <span class="section-eyebrow">The Way Forward</span>
+        <h2 class="section-title">The escape route is a credential the market actually respects.</h2>
+        <p class="section-lead">CPD-accredited certifications are recognized in 195 countries and trusted by employers, governments, and global institutions. This is not another self-paced course that nobody validates. This is real, portable proof that you are AI fluent.</p>
+        <div class="benefits-list">
+          <div class="benefit">
+            <div class="icon">↑</div>
+            <div>
+              <h4>3.5x faster promotions</h4>
+              <p>Certified professionals advance significantly faster than their non-certified peers.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="icon">$</div>
+            <div>
+              <h4>25% higher pay on average</h4>
+              <p>A credential the market respects translates directly into earning power.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="icon">✓</div>
+            <div>
+              <h4>$4,000+ in tuition reimbursement</h4>
+              <p>Many employers fund continuing professional development, often more than the cost of the program itself.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="icon">★</div>
+            <div>
+              <h4>Global recognition</h4>
+              <p>CPD-accredited credentials open doors to speaking engagements, consulting work, and international roles.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="form-section" id="register">
-  <div class="form-inner">
-    <div class="section-eyebrow">Reserve Your Seat</div>
-    <h2>Register for the live session</h2>
-    <p class="section-lede">Click below to register on Zoom. Your join link, calendar invite, and reminders are sent to your email instantly.</p>
-    <div style="display:flex; justify-content:center; margin-top: 8px;">
-      <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="btn-primary" style="padding: 20px 44px; font-size: 17px;">Register on Zoom &rarr;</a>
-    </div>
-    <div class="form-trust">
-      <span>&#128274; Secure Zoom registration</span>
-      <span>&#9989; Instant join link by email</span>
-      <span>&#128231; Replay sent to every registrant</span>
-    </div>
-  </div>
-</section>
-
-<section class="feature-strip" id="what-youll-learn">
-  <div class="feature-strip-inner">
-    <div class="strip-header">
-      <div class="section-eyebrow">Who This Is For</div>
-      <h2>Built for the people closest to the real opportunity</h2>
-      <p class="section-lede">Working from home, returning to work, switching careers, or stacking a second income, this session was designed for you.</p>
-    </div>
-    <div class="strip-grid">
-      <div class="strip-card">
-        <div class="strip-img"><img src="images/wfh-bright.png" alt="A mother working from home on her laptop with her child playing nearby" /></div>
-        <div class="strip-body">
-          <div class="strip-title">Work-from-home parents</div>
-          <p class="strip-copy">Build income on your schedule, around your family. AI skills you can use part-time, full-time, or freelance, with zero commute.</p>
-        </div>
+<!-- ===== LEARN ===== -->
+<section class="block learn-block">
+  <div class="container">
+    <span class="section-eyebrow">What You Will Learn</span>
+    <h2 class="section-title">AI from the ground up. Applied to the life you actually live.</h2>
+    <p class="section-lead">No theory dumps. No tool-of-the-week chasing. A complete framework to understand AI, use it, and earn from it, finished with a credential you can put on your résumé and your LinkedIn the day you complete it.</p>
+    <div class="learn-grid">
+      <div class="learn-card">
+        <span class="step">Step 01</span>
+        <h3>AI from the ground up</h3>
+        <p>Start with the fundamentals. How AI actually works, where it is going, and what it means for income, careers, and ownership over the next ten years.</p>
       </div>
-      <div class="strip-card">
-        <div class="strip-img"><img src="images/certification-bright.png" alt="A group of professionals learning AI together" /></div>
-        <div class="strip-body">
-          <div class="strip-title">Career switchers &amp; upskillers</div>
-          <p class="strip-copy">A CPD-accredited certification that signals real expertise to employers and consulting clients. The credential corporate decision-makers respect.</p>
-        </div>
+      <div class="learn-card">
+        <span class="step">Step 02</span>
+        <h3>Apply it to work, business, and life</h3>
+        <p>Use AI to speed up your current job, launch a side business, automate the boring parts of life, and free up time for the things that matter.</p>
       </div>
-      <div class="strip-card">
-        <div class="strip-img"><img src="images/hero-bright.png" alt="A confident professional using AI tools at her desk" /></div>
-        <div class="strip-body">
-          <div class="strip-title">Side-hustlers &amp; founders</div>
-          <p class="strip-copy">Stack a second income or build a service business with AI-powered offers. Stop trading time for dollars, start charging for outcomes.</p>
-        </div>
+      <div class="learn-card">
+        <span class="step">Step 03</span>
+        <h3>Build real projects</h3>
+        <p>You will leave with portfolio-ready work. Real outputs you can show employers, clients, or your own audience as proof of skill.</p>
+      </div>
+      <div class="learn-card">
+        <span class="step">Step 04</span>
+        <h3>Earn a CPD-accredited AI Certification</h3>
+        <p>A credential that is recognized internationally and respected by employers. Yours to keep. Yours to use to negotiate, get hired, or charge more.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="truth">
-  <div class="truth-inner">
-    <div style="text-align:center;">
-      <div class="section-eyebrow">The Honest Truth</div>
-      <h2>This is the moment. Most people will miss it.</h2>
-      <p class="section-lede" style="margin-top:14px;">The AI economy is rewarding three things right now: skills, certification, and speed. Here is what that actually looks like.</p>
-    </div>
-    <div class="truth-grid">
-      <div class="truth-card">
-        <div class="truth-icon">&#128200;</div>
-        <div class="truth-title">38% higher earnings</div>
-        <p class="truth-copy">Professionals with documented AI skills are out-earning their peers in nearly every industry, according to recent workforce studies.</p>
+<!-- ===== DESTINY ===== -->
+<section class="block destiny-block">
+  <div class="container">
+    <div class="destiny-grid">
+      <div>
+        <span class="section-eyebrow">Control Your Destiny</span>
+        <h2 class="section-title">Work from anywhere. On your terms. With skills the market is bidding up.</h2>
+        <p class="section-lead">The most resilient people in this economy are the ones who can produce real value with a laptop and an internet connection. AI is the leverage that makes that possible at a level we have never seen before.</p>
+        <div class="destiny-points">
+          <div class="destiny-point"><span class="dot"></span><span>Open a remote income stream that does not depend on a single employer.</span></div>
+          <div class="destiny-point"><span class="dot"></span><span>Trade hours for output, not your seat at a desk for someone else's calendar.</span></div>
+          <div class="destiny-point"><span class="dot"></span><span>Be home for your kids, your parents, your life, while your skills compound.</span></div>
+          <div class="destiny-point"><span class="dot"></span><span>Stop hoping the next round of cuts skips you. Build skills that make you the person companies fight to keep.</span></div>
+        </div>
       </div>
-      <div class="truth-card">
-        <div class="truth-icon">&#127942;</div>
-        <div class="truth-title">3.5x faster promotions</div>
-        <p class="truth-copy">AI-certified employees are promoted faster than non-certified peers because they ship more, automate the busywork, and lead the change.</p>
-      </div>
-      <div class="truth-card">
-        <div class="truth-icon">&#128176;</div>
-        <div class="truth-title">$30K+ speaker fees</div>
-        <p class="truth-copy">AI certified consultants and trainers are charging premium rates for workshops, audits, and corporate training engagements.</p>
+      <div class="img-wrap">
+        <img src="images/v2/control-destiny.png" alt="A professional working from a bright, comfortable home space, in control of her own time and income" loading="lazy" />
       </div>
     </div>
   </div>
 </section>
 
-<section class="pillars">
-  <div class="pillars-inner">
-    <div style="text-align:center;">
-      <div class="section-eyebrow">What We Cover</div>
-      <h2>The 4-pillar opportunity blueprint</h2>
-      <p class="section-lede" style="margin-top:14px;">Sixty minutes. No fluff. Here is the exact roadmap we walk you through, live.</p>
-    </div>
-    <div class="pillars-grid">
-      <div class="pillar-card">
-        <div class="pillar-num">1</div>
-        <div>
-          <div class="pillar-title">The Skills Stack</div>
-          <p class="pillar-copy">Which AI skills employers and clients are paying for right now, and which ones are already saturated. We map the real demand.</p>
-        </div>
-      </div>
-      <div class="pillar-card">
-        <div class="pillar-num">2</div>
-        <div>
-          <div class="pillar-title">The Certification</div>
-          <p class="pillar-copy">How a CPD-accredited credential opens doors to corporate clients, consulting work, and tuition reimbursement at most major employers.</p>
-        </div>
-      </div>
-      <div class="pillar-card">
-        <div class="pillar-num">3</div>
-        <div>
-          <div class="pillar-title">The Offer</div>
-          <p class="pillar-copy">How to package an AI-powered service businesses pay for, even if you have never sold a service before.</p>
-        </div>
-      </div>
-      <div class="pillar-card">
-        <div class="pillar-num">4</div>
-        <div>
-          <div class="pillar-title">The Path</div>
-          <p class="pillar-copy">Your exact next 90 days. Where to start, what to charge, and how to land your first paying client or contract.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!-- ===== FINAL CTA ===== -->
 <section class="final-cta">
-  <div class="final-cta-inner">
-    <h2>Your seat is free. Your decision is not.</h2>
-    <p class="section-lede">Sixty minutes that can reshape the next twelve months. Register now and we'll send the Zoom link, calendar invite, and prep workbook to your inbox.</p>
-    <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="btn-primary">Save My Seat &rarr;</a>
+  <div class="container">
+    <h2>The future is being decided right now. <em>You can either watch it happen, or step into it.</em></h2>
+    <p>Join the free live session and walk away with a clear, honest understanding of where the economy is going and what to do about it.</p>
+    <a class="hero-cta" href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener">Reserve Your Seat</a>
+    <div class="meta">Live on Zoom. No replays. Show up ready to learn.</div>
   </div>
 </section>
 
+<!-- ===== FOOTER ===== -->
 <footer>
-  &copy; SMB Solutions, a Division of Tsalach Inc. &nbsp;&middot;&nbsp;
-  Questions? Email <a href="mailto:support@smbsolution.ai">support@smbsolution.ai</a>
+  <div class="brand-foot">The AI Certification <span>Program</span></div>
+  <div>© <span id="yr"></span> The AI Certification Program. All rights reserved.</div>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </footer>
 
 </body>
