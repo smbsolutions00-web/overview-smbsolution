@@ -1,0 +1,13 @@
+{
+  "name": "overview-smbsolution",
+  "version": "1.0.0",
+  "description": "SMB Solutions Opportunity Meeting landing page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
