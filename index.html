@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Build Supplemental Income in the AI Boom | SMB Solutions</title>
+<meta name="description" content="Free live opportunity session. Learn how to position yourself for supplemental income in the AI economy with CPD-accredited certification and a proven system from SMB Solutions, a division of Tsalach Inc." />
+<meta property="og:title" content="Build Supplemental Income in the AI Boom" />
+<meta property="og:description" content="A free live opportunity session for anyone ready to generate supplemental income in the AI economy. Real strategy. Real systems. No fluff." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink: #1a2347;          /* deep navy text */
+    --ink-soft: #4b5479;
+    --ink-muted: #7a83a3;
+    --cream: #fbf7ee;        /* warm cream surface */
+    --cream-deep: #f3ecd8;
+    --sky: #e7f0fb;          /* soft sky tint */
+    --sky-deep: #c9deef;
+    --gold: #e0a500;
+    --gold-soft: #f5c558;
+    --gold-bg: #fff4d3;
+    --green: #1f9d52;
+    --green-soft: #d4f0de;
+    --white: #ffffff;
+    --line: rgba(26,35,71,0.10);
+    --shadow-sm: 0 2px 8px rgba(26,35,71,0.06);
+    --shadow-md: 0 12px 28px rgba(26,35,71,0.10);
+    --shadow-lg: 0 24px 60px rgba(26,35,71,0.14);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--ink);
+    background: var(--cream);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+
+  /* ===== TOP BANNER ===== */
+  .top-banner {
+    background: linear-gradient(90deg, var(--gold) 0%, var(--gold-soft) 100%);
+    color: #3a2a00;
+    text-align: center;
+    padding: 11px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  /* ===== NAV ===== */
+  nav {
+    background: var(--white);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .logo { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 18px; color: var(--ink); }
+  .logo-mark {
+    width: 40px; height: 40px; border-radius: 9px;
+    background: linear-gradient(135deg, var(--gold) 0%, #c08400 100%);
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-weight: 800; font-size: 20px;
+    box-shadow: 0 4px 10px rgba(224,165,0,0.30);
+  }
+  .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
+  .logo-sub { font-size: 11px; color: var(--ink-muted); font-weight: 500; margin-top: 2px; }
+  .nav-cta {
+    background: var(--gold);
+    color: #3a2a00;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(224,165,0,0.30);
+  }
+  .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(224,165,0,0.40); }
+
+  /* ===== HERO ===== */
+  .hero {
+    background:
+      radial-gradient(circle at 80% 10%, rgba(255,244,211,0.55) 0%, transparent 55%),
+      linear-gradient(180deg, var(--sky) 0%, var(--cream) 100%);
+    padding: 60px 32px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .hero-left { position: relative; z-index: 2; }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--green-soft);
+    color: #135f31;
+    padding: 7px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 1.8s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: clamp(38px, 5vw, 60px);
+    line-height: 1.08;
+    margin-bottom: 22px;
+    color: var(--ink);
+    letter-spacing: -0.5px;
+  }
+  h1 .accent { color: var(--gold); font-style: italic; }
+  h1 .accent-green { color: var(--green); }
+
+  .hero-sub {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin-bottom: 28px;
+    max-width: 540px;
+  }
+  .hero-bullets { list-style: none; margin-bottom: 32px; }
+  .hero-bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 15.5px;
+    color: var(--ink);
+  }
+  .check {
+    flex-shrink: 0;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    background: var(--green);
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  .hero-cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--gold);
+    color: #3a2a00;
+    padding: 16px 32px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 15.5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 8px 20px rgba(224,165,0,0.32);
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(224,165,0,0.42); }
+  .btn-secondary {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--white);
+    color: var(--ink);
+    padding: 16px 28px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 15.5px;
+    border: 1.5px solid var(--line);
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .btn-secondary:hover { border-color: var(--gold); transform: translateY(-2px); }
+
+  .hero-right { position: relative; z-index: 2; }
+  .hero-image {
+    border-radius: 22px;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    background: var(--white);
+  }
+  .hero-image img { width: 100%; height: 100%; object-fit: cover; }
+
+  .hero-meta {
+    margin-top: 26px;
+    background: var(--white);
+    border-radius: 16px;
+    padding: 18px 22px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  .hero-meta-icon {
+    width: 46px; height: 46px;
+    border-radius: 12px;
+    background: var(--gold-bg);
+    color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .hero-meta-text { font-size: 13px; }
+  .hero-meta-date { font-weight: 700; color: var(--ink); font-size: 15px; line-height: 1.2; }
+  .hero-meta-detail { color: var(--ink-soft); margin-top: 3px; }
+
+  /* ===== FORM SECTION ===== */
+  .form-section {
+    background: var(--white);
+    padding: 80px 32px;
+    position: relative;
+  }
+  .form-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--gold) 0%, var(--green) 50%, var(--gold) 100%);
+  }
+  .form-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-eyebrow {
+    color: var(--gold);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: 16px;
+    letter-spacing: -0.3px;
+  }
+  .section-lede {
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 580px;
+    margin: 0 auto 36px;
+  }
+  .form-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: 6px;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    position: relative;
+  }
+  .form-card iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 16px;
+    min-height: 620px;
+  }
+  .form-trust {
+    margin-top: 26px;
+    font-size: 13px;
+    color: var(--ink-muted);
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .form-trust span { display: inline-flex; align-items: center; gap: 6px; }
+
+  /* ===== FEATURE STRIP (3-up images) ===== */
+  .feature-strip {
+    padding: 90px 32px;
+    background: linear-gradient(180deg, var(--cream) 0%, #f8f1e1 100%);
+  }
+  .feature-strip-inner { max-width: 1200px; margin: 0 auto; }
+  .strip-header { text-align: center; margin-bottom: 56px; }
+  .strip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .strip-card {
+    background: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+  .strip-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+  .strip-img { aspect-ratio: 4/3; overflow: hidden; background: var(--sky); }
+  .strip-img img { width: 100%; height: 100%; object-fit: cover; }
+  .strip-body { padding: 24px 24px 28px; }
+  .strip-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--ink); margin-bottom: 10px; line-height: 1.25; }
+  .strip-copy { font-size: 14.5px; color: var(--ink-soft); line-height: 1.55; }
+
+  /* ===== TRUTH / WHO IS IT FOR ===== */
+  .truth {
+    padding: 90px 32px;
+    background: var(--white);
+  }
+  .truth-inner { max-width: 1080px; margin: 0 auto; }
+  .truth-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+  }
+  .truth-card {
+    background: var(--cream);
+    border-radius: 18px;
+    padding: 32px 28px;
+    border: 1px solid var(--line);
+  }
+  .truth-icon {
+    width: 52px; height: 52px;
+    border-radius: 14px;
+    background: var(--gold-bg);
+    color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .truth-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 21px; color: var(--ink); margin-bottom: 10px; }
+  .truth-copy { font-size: 14.5px; color: var(--ink-soft); }
+
+  /* ===== PILLARS ===== */
+  .pillars {
+    padding: 90px 32px;
+    background: linear-gradient(180deg, var(--sky) 0%, #f3f8fd 100%);
+  }
+  .pillars-inner { max-width: 1080px; margin: 0 auto; }
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-top: 48px;
+  }
+  .pillar-card {
+    background: var(--white);
+    border-radius: 18px;
+    padding: 30px 28px;
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .pillar-num {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: var(--gold);
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(224,165,0,0.30);
+  }
+  .pillar-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 19px; color: var(--ink); margin-bottom: 6px; }
+  .pillar-copy { font-size: 14.5px; color: var(--ink-soft); line-height: 1.55; }
+
+  /* ===== FINAL CTA ===== */
+  .final-cta {
+    padding: 80px 32px;
+    background: linear-gradient(135deg, #1a2347 0%, #2d3e7c 100%);
+    text-align: center;
+    color: #fff;
+  }
+  .final-cta-inner { max-width: 720px; margin: 0 auto; }
+  .final-cta h2 { color: #fff; }
+  .final-cta .section-lede { color: rgba(255,255,255,0.85); }
+  .final-cta .btn-primary { margin-top: 8px; }
+
+  /* ===== FOOTER ===== */
+  footer {
+    padding: 36px 32px;
+    background: var(--white);
+    border-top: 1px solid var(--line);
+    text-align: center;
+    color: var(--ink-muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink); font-weight: 600; }
+  footer a:hover { color: var(--gold); }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+    .hero-right { order: -1; }
+    .strip-grid { grid-template-columns: 1fr; }
+    .truth-grid { grid-template-columns: 1fr; }
+    .pillars-grid { grid-template-columns: 1fr; }
+    .form-card iframe { min-height: 700px; }
+    section, .hero, .form-section, .feature-strip, .truth, .pillars, .final-cta { padding-left: 22px; padding-right: 22px; }
+    .nav-inner { padding: 16px 22px; }
+    .form-trust { gap: 14px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-banner">
+  Free Live Opportunity Session &nbsp;&middot;&nbsp; Replay sent to every registrant &nbsp;&middot;&nbsp; No pitch
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">SMB Solutions<span class="logo-sub">A Division of Tsalach Inc</span></span>
+    </a>
+    <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="nav-cta">Save My Seat</a>
+  </div>
+</nav>
+
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="badge"><span class="badge-dot"></span>Live Opportunity Meeting</div>
+      <h1>Build <span class="accent">Supplemental Income</span> in the <span class="accent-green">AI Boom</span>.</h1>
+      <p class="hero-sub">A free live session for stay-at-home parents, professionals, and side-hustlers ready to position themselves in the fastest-growing economy of our lifetime. Learn the system. Get the certification. Start earning.</p>
+      <ul class="hero-bullets">
+        <li><span class="check">&#10003;</span>The exact AI skills companies will pay for in 2026</li>
+        <li><span class="check">&#10003;</span>A CPD-accredited path that opens corporate and consulting doors</li>
+        <li><span class="check">&#10003;</span>How everyday people are replacing or supplementing full-time income</li>
+        <li><span class="check">&#10003;</span>No tech background required. We start from the ground up.</li>
+      </ul>
+      <div class="hero-cta-row">
+        <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="btn-primary">Save My Seat &rarr;</a>
+        <a href="#what-youll-learn" class="btn-secondary">See what we cover</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-image">
+        <img src="images/hero-bright.png" alt="A confident professional working from a bright, sunny home office with AI tools" />
+      </div>
+      <div class="hero-meta">
+        <div class="hero-meta-icon">&#9200;</div>
+        <div class="hero-meta-text">
+          <div class="hero-meta-date">Thursday, June 11 &middot; 7:00 PM CT</div>
+          <div class="hero-meta-detail">Live on Zoom &middot; 60 minutes &middot; Replay sent after</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="form-section" id="register">
+  <div class="form-inner">
+    <div class="section-eyebrow">Reserve Your Seat</div>
+    <h2>Register for the live session</h2>
+    <p class="section-lede">Click below to register on Zoom. Your join link, calendar invite, and reminders are sent to your email instantly.</p>
+    <div style="display:flex; justify-content:center; margin-top: 8px;">
+      <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="btn-primary" style="padding: 20px 44px; font-size: 17px;">Register on Zoom &rarr;</a>
+    </div>
+    <div class="form-trust">
+      <span>&#128274; Secure Zoom registration</span>
+      <span>&#9989; Instant join link by email</span>
+      <span>&#128231; Replay sent to every registrant</span>
+    </div>
+  </div>
+</section>
+
+<section class="feature-strip" id="what-youll-learn">
+  <div class="feature-strip-inner">
+    <div class="strip-header">
+      <div class="section-eyebrow">Who This Is For</div>
+      <h2>Built for the people closest to the real opportunity</h2>
+      <p class="section-lede">Working from home, returning to work, switching careers, or stacking a second income, this session was designed for you.</p>
+    </div>
+    <div class="strip-grid">
+      <div class="strip-card">
+        <div class="strip-img"><img src="images/wfh-bright.png" alt="A mother working from home on her laptop with her child playing nearby" /></div>
+        <div class="strip-body">
+          <div class="strip-title">Work-from-home parents</div>
+          <p class="strip-copy">Build income on your schedule, around your family. AI skills you can use part-time, full-time, or freelance, with zero commute.</p>
+        </div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-img"><img src="images/certification-bright.png" alt="A group of professionals learning AI together" /></div>
+        <div class="strip-body">
+          <div class="strip-title">Career switchers &amp; upskillers</div>
+          <p class="strip-copy">A CPD-accredited certification that signals real expertise to employers and consulting clients. The credential corporate decision-makers respect.</p>
+        </div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-img"><img src="images/hero-bright.png" alt="A confident professional using AI tools at her desk" /></div>
+        <div class="strip-body">
+          <div class="strip-title">Side-hustlers &amp; founders</div>
+          <p class="strip-copy">Stack a second income or build a service business with AI-powered offers. Stop trading time for dollars, start charging for outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="truth">
+  <div class="truth-inner">
+    <div style="text-align:center;">
+      <div class="section-eyebrow">The Honest Truth</div>
+      <h2>This is the moment. Most people will miss it.</h2>
+      <p class="section-lede" style="margin-top:14px;">The AI economy is rewarding three things right now: skills, certification, and speed. Here is what that actually looks like.</p>
+    </div>
+    <div class="truth-grid">
+      <div class="truth-card">
+        <div class="truth-icon">&#128200;</div>
+        <div class="truth-title">38% higher earnings</div>
+        <p class="truth-copy">Professionals with documented AI skills are out-earning their peers in nearly every industry, according to recent workforce studies.</p>
+      </div>
+      <div class="truth-card">
+        <div class="truth-icon">&#127942;</div>
+        <div class="truth-title">3.5x faster promotions</div>
+        <p class="truth-copy">AI-certified employees are promoted faster than non-certified peers because they ship more, automate the busywork, and lead the change.</p>
+      </div>
+      <div class="truth-card">
+        <div class="truth-icon">&#128176;</div>
+        <div class="truth-title">$30K+ speaker fees</div>
+        <p class="truth-copy">AI certified consultants and trainers are charging premium rates for workshops, audits, and corporate training engagements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="pillars-inner">
+    <div style="text-align:center;">
+      <div class="section-eyebrow">What We Cover</div>
+      <h2>The 4-pillar opportunity blueprint</h2>
+      <p class="section-lede" style="margin-top:14px;">Sixty minutes. No fluff. Here is the exact roadmap we walk you through, live.</p>
+    </div>
+    <div class="pillars-grid">
+      <div class="pillar-card">
+        <div class="pillar-num">1</div>
+        <div>
+          <div class="pillar-title">The Skills Stack</div>
+          <p class="pillar-copy">Which AI skills employers and clients are paying for right now, and which ones are already saturated. We map the real demand.</p>
+        </div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">2</div>
+        <div>
+          <div class="pillar-title">The Certification</div>
+          <p class="pillar-copy">How a CPD-accredited credential opens doors to corporate clients, consulting work, and tuition reimbursement at most major employers.</p>
+        </div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">3</div>
+        <div>
+          <div class="pillar-title">The Offer</div>
+          <p class="pillar-copy">How to package an AI-powered service businesses pay for, even if you have never sold a service before.</p>
+        </div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">4</div>
+        <div>
+          <div class="pillar-title">The Path</div>
+          <p class="pillar-copy">Your exact next 90 days. Where to start, what to charge, and how to land your first paying client or contract.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="final-cta-inner">
+    <h2>Your seat is free. Your decision is not.</h2>
+    <p class="section-lede">Sixty minutes that can reshape the next twelve months. Register now and we'll send the Zoom link, calendar invite, and prep workbook to your inbox.</p>
+    <a href="https://us06web.zoom.us/meeting/register/lRWkrhPCQ_Oy76AkHVLgEA" target="_blank" rel="noopener" class="btn-primary">Save My Seat &rarr;</a>
+  </div>
+</section>
+
+<footer>
+  &copy; SMB Solutions, a Division of Tsalach Inc. &nbsp;&middot;&nbsp;
+  Questions? Email <a href="mailto:support@smbsolution.ai">support@smbsolution.ai</a>
+</footer>
+
+</body>
+</html>
