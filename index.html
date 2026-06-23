@@ -66,11 +66,16 @@
   .brand {
     font-family: 'Playfair Display', Georgia, serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--ink);
     letter-spacing: 0.2px;
+    line-height: 1.25;
+    max-width: 640px;
   }
   .brand span { color: var(--gold); }
+  @media (max-width: 760px) {
+    .brand { font-size: 14px; max-width: 220px; }
+  }
   .nav-cta {
     display: inline-block;
     background: var(--ink);
@@ -484,7 +489,7 @@
 <!-- ===== HEADER ===== -->
 <header class="site-header">
   <div class="header-inner">
-    <div class="brand">The AI Certification <span>Program</span></div>
+    <div class="brand">Learn AI, safeguard your family while protecting your <span>financial future</span></div>
     <a class="nav-cta" href="https://us06web.zoom.us/meeting/register/TFfhLmv1R8mh_8EixGXwVQ" target="_blank" rel="noopener">Reserve Your Seat</a>
   </div>
 </header>
